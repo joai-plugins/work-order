@@ -1,0 +1,38 @@
+{
+  "name": "joai-work-order",
+  "version": "0.3.0",
+  "description": "Connect Work Order to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/work-order",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "work-order"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Work Order by JoAi",
+    "shortDescription": "Connect Work Order to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "Create work orders, service reports, and invoices for field work. Track technician hours, match materials to products, and generate PDF documentation.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/work-order",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the Work Order tools available in this app.",
+      "Explain what setup or authentication Work Order needs before I run an action.",
+      "Use Work Order to help me with the task I describe next."
+    ]
+  }
+}
